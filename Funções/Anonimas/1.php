@@ -1,5 +1,5 @@
 <?php
-
+// Funções anônimas não possuem nome, são tipo de callbacks
 $name = function($nome){
     return $nome;
 };
