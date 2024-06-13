@@ -1,15 +1,11 @@
 <?php
+// Passagem por referência indicada pelo &
+// Name dentro da função tem um escopo GLOBAL graças ao &
 
-Class A {
-    protected $x = array();
-
-    public function &getX(){
-        return $this->  x;
-    }
+function add(&$name){
+  $name = " Soares";
 }
 
-$a = new A();
-array_push($a->getX(), 'one');
-array_push($a->getX(), 'two');
-
-echo count($a->getX());
+$name = 'Leandro';
+add($name);
+echo $name;
