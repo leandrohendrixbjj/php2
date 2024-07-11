@@ -1,9 +1,10 @@
 <?php
 
-function add($a, $b, $c){
-    return $a + $b + $c + $d;
+function add($valueOffArr,$a,$b)
+{
+    return $valueOffArr + $a + $b;
 }
 
-$elements = [2,3];
+$elements = [2, 3];
 
-echo add(1, ...$elements);
+echo add(1,...$elements);

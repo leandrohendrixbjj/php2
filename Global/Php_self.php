@@ -1,6 +1,9 @@
-<!-- $_SERVER["PHP_SELF"] é o caminho para o próprio arquivo em questão. 
-   Desta forma, ao submeter o formulário, a requisição POST será enviada para ele mesmo. 
-   Porém, não é recomendado que faça isso. -->
+<!-- 
+  $_SERVER["PHP_SELF"] é o caminho para o próprio arquivo em questão. 
+  Ao submeter o formulário, a requisição POST será enviada para ele mesmo. 
+  Não é uma boa prática. Parece tudo certo, mas isso abre algumas brechas 
+  na sua aplicação. Alguém provido de más intenções poderia muito bem acessar a URL 
+-->
    <?php 
   echo "<pre>";
   print_r($_POST);

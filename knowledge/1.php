@@ -1,6 +1,5 @@
 <?php 
 
-
 //Allow more than one value between ()
 echo 'Leandro', ' Soares';
 
