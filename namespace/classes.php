@@ -1,20 +1,27 @@
 <?php 
-//Foi possivel declarar pq ambas possuem um namespace
-namespace lojafisica;
-const EXPEDIENTE = 8;
-class Cliente{
-	function informacoes(){
-		return EXPEDIENTE;
-	}
+
+// Permite declarar classes com o mesmo nome
+
+namespace store;
+class Customer {
+  function info () {
+    return "Customer from Store";
+  }
 }
 
 namespace site;
-const EXPEDIENTE = 24;
-class Cliente{
-	function informacoes(){
-		return EXPEDIENTE;
-	}
+class Customer {
+  function info (){
+    return "Customer from Site";
+  }
 }
 
-$c = new Cliente();
-echo $c->informacoes();
+use store\Customer as storeCustomer;
+use site\Customer as siteCustomer;
+
+$customerStore = new storeCustomer();
+echo $customerStore->info() . PHP_EOL;
+
+$customerSite = new siteCustomer();
+echo $customerSite->info();
+
