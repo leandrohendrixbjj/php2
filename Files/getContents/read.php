@@ -1,6 +1,8 @@
 <?php 
 
-$file = file_get_contents('../Arquivos/index.json');
+// Ler um arquivo
+
+$file = file_get_contents('../../data.json');
 
 // Array Associativo
 $data = json_decode($file, true);

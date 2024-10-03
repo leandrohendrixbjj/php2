@@ -1,0 +1,28 @@
+[
+  {
+    "nome": "Leandro",
+    "idade": 40,
+    "status": true,
+    "hobbies": [
+      "correr",
+      "nadar"
+    ],
+    "trabalho": {
+      "cargo": "Programador",
+      "empresa": "Gimba"
+    }
+  },
+  {
+    "nome": "Soares",
+    "idade": 30,
+    "status": false,
+    "hobbies": [
+      "futebol",
+      "tenis"
+    ],
+    "trabalho": {
+      "cargo": "Analista",
+      "empresa": "Movida"
+    }
+  }
+]

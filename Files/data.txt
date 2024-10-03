@@ -1,0 +1,2 @@
+This is the first line
+Writing at file throught fwrite
