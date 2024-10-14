@@ -2,7 +2,8 @@
 
 // Passagem valor e referência
 $a = 1;
-$b = &$a; // & Vai receber sempre o valor de memória referente a A. 
+$b = 
+$a; // & Vai receber sempre o valor de memória referente a A. 
 $c = $b;
 
 $a = 2;
