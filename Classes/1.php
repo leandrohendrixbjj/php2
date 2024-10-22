@@ -1,8 +1,7 @@
 <?php
 
 class Pessoa{
-    const IDADE = 30;
-
+  const IDADE = 30;
 
 	public function getIdade(){
 		return self::IDADE;
