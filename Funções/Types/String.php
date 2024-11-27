@@ -1,10 +1,12 @@
 <?php
 
-function getPerson(string $data): string
+// Função recebe uma String e retorna a mesma
+
+function getName(string $name): string
 {
-  return $data;
+  return $name;
 }
 
-echo gettype( 
-  getPerson('Leandro')
-);
+$data = getName('Soares');
+
+print_r("Nome: $data Tipo:" . gettype($data));

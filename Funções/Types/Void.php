@@ -1,9 +1,10 @@
 <?php
 
-// Sem retorno
-function getPerson(): void
+// Função sem retorno
+
+function setData($text): void
 {
-  echo "Welcome";
+  echo $text;
 }
 
-echo getPerson();
+echo setData("Welcome");

@@ -1,10 +1,11 @@
-<?php
+<?php 
 
-function getPerson(bool $data): bool
-{
-  return $data;
+// Função recebe um booleano e retorna o mesmo
+
+function getStatus(bool $status): bool{
+  return $status;
 }
 
-echo gettype( 
-  getPerson(1)
-);
+$data = getStatus(true);
+
+print_r("Valor: $data Tipo:" .gettype($data) );

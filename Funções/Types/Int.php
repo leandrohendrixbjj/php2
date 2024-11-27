@@ -1,10 +1,12 @@
 <?php
 
-function getPerson(int $age): int
+// Função recebe um inteiro e retorna o mesmo
+
+function getAge(int $age): int
 {
   return $age;
 }
 
-echo gettype( 
-  getPerson(40)
-);
+$data = getAge(30);
+
+print_r("Idade: $data Tipo:" . gettype($data) );
