@@ -1,3 +1,3 @@
 <?php 
 
-echo "Caminho do arquivo atual: " . __DIR__;
+echo "Endereço do diretório atual: " . __DIR__;
