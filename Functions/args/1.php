@@ -1,8 +1,9 @@
-<?php
- 
- // Devolve o número de argumentos passados para a função
-function foo()
-{
-  echo "Number os arguments: ", func_num_args(), PHP_EOL;
+<?php 
+
+// Retorna o total de argumentos passado na função
+function store(){
+  $total = func_num_args();
+  echo "Total de param enviados: $total";
 }
-foo(20, 30, 40);
+
+store('Leandro','40','Rua A');
