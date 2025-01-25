@@ -16,8 +16,8 @@ $arr = [
   'categoria' => 'Programação/Desenvolvimento',
   "Linguagem" => ['PHP', 'Node'],
   "Estados" => [
-    'sp' => 'sao paulo',
-    'es' => 'espirito santo'
+    'sp' => 'São Paulo',
+    'rn' => 'Natal'
   ]
 ];
 
