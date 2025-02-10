@@ -1,8 +1,8 @@
 <?php 
 
-// SORT: Ordena em ordem crescente
+// SORT: Organiza os valores do MENOR para MAIOR ( Ordem CRESENTE )
 
-$data = [32,1,43,20,50,31];
+$data = [3,2,1];
 
 sort($data);
 

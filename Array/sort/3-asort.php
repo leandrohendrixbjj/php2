@@ -1,11 +1,16 @@
 <?php 
 
-// ASORT: Ordena em order DECRESENTE baseado nos valores do array
+/*
+   ASORT: Organiza os valores do MENOR para MAIOR ( Ordem CRESENTE )   
+   
+   1-) Na organização as CHAVES são IGNORADAS, apenas os VALORES são considerados.
+   2-) AS chaves do array são mantidos, isso que diferencia do sort
+*/ 
 
 $data = [
-  'C' => 30,
-  'B' => 1,
-  'A' => 10
+  3 => 'Laranja',
+  2 => 'Banana',
+  1 => 'Maça'
 ];
 
 asort($data);
