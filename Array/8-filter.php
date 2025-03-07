@@ -1,4 +1,5 @@
 <?php
+
 // Retorna apenas os valores maiores que 7
 
 $data = [5, 6, 7, 8, 9, 10];

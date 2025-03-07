@@ -1,8 +1,6 @@
 <?php
 
-/*
-  Retorna um array contendo os resultados da aplicação da função callback
-*/
+// Retorna um array contendo os resultados da aplicação da função callback
 
 function multiply($value)
 {

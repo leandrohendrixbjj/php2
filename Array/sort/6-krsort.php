@@ -1,15 +1,15 @@
 <?php 
 
 /*
-   KSORT: Organiza os valores do MENOR para MAIOR ( Ordem CRESENTE )   
+   KRSORT: Organiza os valores do MAIOR para MENOR ( Ordem DECRESENTE )   
    
    1-) Na organização os VALORES são IGNORADOS, apenas os chaves são consideradas.   
 */ 
 
 $data = [
-  'Laranja' => 3,
-  'Banana' => 4,
-  'Maça' => 5
+  'Banana' => 2,
+  'Laranja' => 1,
+  'Maça' => 3
 ];
 
 ksort($data);
