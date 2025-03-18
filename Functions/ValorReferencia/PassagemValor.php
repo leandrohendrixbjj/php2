@@ -1,7 +1,6 @@
 <?php
 
-// Passagem por referência indicada pelo &
-// Passagem é por valor(mais comum)
+// Passagem por referência indicada pelo &.  Passagem é por valor(mais comum)
 
 function add(&$name){
   $name .= " Soares";
